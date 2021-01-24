@@ -3,6 +3,7 @@ def count_strings(array)
   array.count do |is_string|
     is_string == String
   end
+  is_string
 end
 
 def count_empty_strings(array)
